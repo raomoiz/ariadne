@@ -6,4 +6,5 @@ edition = "2024"
 [dependencies]
 mujoco-rs = { workspace = true }
 nalgebra = { workspace = true }
+serde = { workspace = true, features = ["derive"] }
 serde_json = { workspace = true }
